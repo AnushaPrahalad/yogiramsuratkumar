@@ -1,0 +1,108 @@
+
+html
+{
+    scroll-behavior: smooth;
+}
+body
+{
+    padding-top: 800px;
+    background: linear-gradient(#dded72,#ed1c20,white,white);
+}
+#mainimg
+{
+    width:400px;
+    border-radius: 100%;
+}
+
+#topsection
+{
+    position:absolute;
+    top:0;
+    display: table;
+    width:100%;
+    height:800px;
+    text-align: center;
+    
+    z-index: 9;
+}
+#innersection
+{
+    display:table-cell;
+    vertical-align: middle;
+    
+}
+#aboutsection
+{
+    margin:50px;
+    text-align: center;
+    
+}
+#mainp
+{
+    padding:10px;
+    width:100%;
+    text-align: center;
+    margin:10px auto;
+    font-family: 'Akaya Telivigala', cursive;
+    line-height: 1.3;
+    font-size: 24px;
+}
+.line
+{
+    height:6px;
+    width:100px;
+    background-color:brown;
+    margin: auto;
+}
+
+#menua
+{
+    text-decoration: none;
+    text-shadow: 2px 2px white ;
+}
+#codegame
+{
+    transition:transform .2s;
+}
+#codegame:hover{
+    transform:scale(0.9);
+}
+.links
+{
+    float:left;
+    padding: 10px;
+    font-size: 18px;
+    
+}
+.links:hover
+{
+    background-color: red;
+}
+#videosec
+{
+    
+    text-align: center;
+}
+#footer
+{
+    background-color: brown;
+}
+.my_nav_bar
+{
+    position:fixed;
+    top:0;
+    z-index: 99999;
+    margin-top: 0px;
+    width:100%;
+}
+
+.myNavbar1
+{
+    position:fixed;
+    list-style: none;
+    z-index: 10;
+    top:10px;
+    width:100%;
+    
+  
+}
